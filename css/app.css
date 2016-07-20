@@ -156,11 +156,16 @@ div#slider h3{
 
 .two{
 width: 100%;
+/*height: auto;*/
 height: 660px;
-
+  background-image: url(../img/pattern_bg.png);
+  /* background-repeat: no-repeat;*/
+    background-attachment: fixed;
+   /* background-position: center;*/
 }
 .features{
 width: 100%;
+
 /*height: 720px;*/
 top: 90%;
 /*background-image:url(../img/pattern_bg.png);*/
@@ -170,7 +175,7 @@ position: absolute;
 }
 #templatemo_features {
     background: #dc68bf;
-    background-image: url(../img/pattern_bg.png) fixed;
+  
     padding-bottom: 130px;
    /* background-image:url(../img/pattern_bg.png) fixed;*/
     width: 100%;
@@ -242,7 +247,7 @@ position: absolute;
 .three {
 	width: 100%;
 	/*height: auto;*/
-	/*height: 600px;*/
+	height: 650px;
     background-color: grey;
 }
 /*image on scroll effects starts here*/
@@ -379,5 +384,33 @@ position: absolute;
     .cbp-so-side img {
         max-width: 100%;
     }
+}
+
+/*ROW FOUR WITH BACKGROUND IMAGE*/
+.four {
+    width: 100%;
+    height: 500px;
+background-image: url(../img/mushuho.jpg);
+ background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+.bg-img {
+    width: 100%;
+    height: auto;
+    text-align: center;s
+}
+/*image overlay in row four*/
+h4 {
+     font-size: 4em;
+    /*font-weight: 300;*/
+    line-height: 1;
+    font-family: 'Bubblegum Sans', cursive;
+    color: snow;
+}
+.care {
+font-size: 2em;
+    font-family: 'Bubblegum Sans', cursive;
+    color: snow;
 }
 
