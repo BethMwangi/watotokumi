@@ -10,8 +10,10 @@
     <link rel="stylesheet" type="text/css" href="css/normalize.css" />
     <link rel="stylesheet" type="text/css" href="css/demo.css" />
      <link rel="stylesheet" href="assets/demo.css">
+    <!--  <link rel="stylesheet" type="text/css" href="css/demo2.css" /> -->
 <link href='https://fonts.googleapis.com/css?family=Bubblegum+Sans' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <script src="js/modernizr2.custom.js"></script>
   </head>
   <body>
     <div class="container"> 
@@ -101,11 +103,25 @@
   </div>
  </div>
  <div class="row three fullwidth">
-  <div class="large-6 small-6 columns"></div>
- <div class="large-6 small-6 columns"></div>
+  <div class="large-12 small-12 columns cbp-so-scroller" id="cbp-so-scroller" >
+  <section class="cbp-so-section">
+          <article class="cbp-so-side cbp-so-side-left">
+            <h2>About Us</h2>
+            <p>
+              WatotoKumi  Children’s Home is a private, faith-based non-profit organization dedicated to restoring joy to the lives of children from newborn to 18 years of age. Since it was established in 1989, We have been offering safe, caring homes to abused and neglected children. We offer faith-based social services agency fulfilling God's directive to defend the cause of the "weak and fatherless" by providing excellent care and a safe place to call home.</p>
+          </article>
+          <figure class="cbp-so-side cbp-so-side-right">
+            <img src="img/bed.jpg" alt="img01">
+          </figure>
+        </section></div>
+ <!-- <div class="large-6 small-6 columns"></div> -->
 </div>
 
-
+<script src="js/cbpScroller.js"></script>
+<script src="js/cbpScroller1.js"></script>
+    <script>
+      new cbpScroller( document.getElementById( 'cbp-so-scroller' ) );
+    </script>
   <script src="js/templatemo_scripts.js"></script>
 <script type="text/javascript" src="js/jquery.cslider.js"></script>
     <script src="js/vendor/jquery.js"></script>
